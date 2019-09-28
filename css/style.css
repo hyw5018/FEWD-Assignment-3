@@ -1,0 +1,190 @@
+body{
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	letter-spacing:0.5px;
+	line-height:1.4;
+	background-color:#f0efef;
+	max-width:60rem;
+	margin:auto;
+}
+
+header{
+	display:flex;	
+	flex-direction:row;
+	height:6vh;
+	background-color:#033048;
+}
+
+.logo{
+	font-weight:800;
+	font-size:24px;
+	color:white;
+	position:relative;
+	margin:auto;
+}
+
+.navbar{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	position:relative;
+	margin:auto;
+	width:400px;
+	color:#f9e42e;
+}
+
+main{
+	display:flex;
+	flex-direction:row;
+	margin-top:1vh;
+}
+
+.maincontent{
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+	position:relative;
+}
+
+.indent{
+	margin:3vh 0 3vh 4.5vw;
+	width:570px;
+}
+
+ article{
+ 	position:relative;
+	border-bottom:1px solid;
+	width:530px;
+	margin-bottom:2vh;
+ }
+
+
+ 
+.title{
+	font-size:24px;
+	font-weight:600;
+	padding-bottom:10px;
+	width:400px;
+	color:#033048;
+
+}
+
+.contentimage img{
+ 	display:inline-block;
+ 	box-sizing:5px;
+ 	height:250px;
+ 	width:530px;
+ }
+
+
+.blog{
+	font-size:16px;
+	font-weight:300;
+	box-sizing:5px;
+	width:530px;
+	color:#606161;
+}
+
+p::first-letter {
+  float:left;
+  font-size:50px;
+  font-weight:600;
+  line-height:60px;
+  padding-right:10px;
+}
+
+
+.readmore{
+	font-weight:600;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:30px;
+	margin-left:430px;
+}
+
+a{
+	color:#033048;
+	text-decoration:none;
+	font-size:14px;
+}
+
+aside {
+	position:relative;
+	margin-top:3vh;
+	margin-right:15vw;
+	max-width:200px;
+	
+}
+
+.categories{
+	display:inline-grid;
+	font-weight:300;
+	font-size:14px;
+}
+
+.aboutRelaxr{
+	display:flex;
+	flex-direction:column;
+	font-weight:300;
+	overflow-wrap:break-word;
+}
+
+.adunit img{
+	height:150px;
+	width:150px;
+}
+
+footer{
+	display:flex;
+	flex-direction:column;
+}
+
+.container1{
+	background-color:#f9e42e;
+	position:relative;
+}
+
+.signup{
+	color:white;
+	font-size:12px;
+	font-weight:800;
+	background-color:#033048;
+	border-radius:5px;
+	width:10rem;
+	height:auto;
+	padding:15px 15px;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	margin:3vh auto;
+}
+
+.container2{
+	background-color:#121212;
+}
+
+.relaxr{
+	font-size:24px;
+	font-weight:800;
+	color:#f9e42e;
+	text-align:center;
+	padding:30px 20px;
+}
+
+.icons{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding:20px 30px;
+}
+
+
+.copyright{
+	color:white;
+	font-size:12px;
+	font-weight:600;
+	text-align:center;
+	margin:1.5vh auto;
+}
+
+
