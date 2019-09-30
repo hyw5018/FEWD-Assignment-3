@@ -44,11 +44,13 @@ main{
 	flex-direction:column;
 	flex-grow:1;
 	position:relative;
+	margin-left:4rem;
 }
 
+
 .indent{
-	margin:3vh 0 3vh 4.5vw;
-	width:570px;
+	margin:3vh 0vw 3vh 4.5vw;
+	min-width:540px;
 }
 
  article{
@@ -186,5 +188,3 @@ footer{
 	text-align:center;
 	margin:1.5vh auto;
 }
-
-
